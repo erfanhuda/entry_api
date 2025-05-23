@@ -468,12 +468,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "crc32"
-version = "0.0.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4b0cbac55f38f2fea6956fc3a5bb5afef51f50a0f20f0f765f6fac4e5928c3ff"
-
-[[package]]
 name = "crc32fast"
 version = "1.4.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1568,7 +1562,6 @@ dependencies = [
  "url",
  "uuid",
  "xml-rs",
- "zlib",
 ]
 
 [[package]]
@@ -2321,15 +2314,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "zlib"
-version = "0.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c6c1d0abf490cc3316b867787490cc6b7ba6724a017df53f3bfc98853a94f083"
-dependencies = [
- "crc32",
 ]
 
 [[package]]
